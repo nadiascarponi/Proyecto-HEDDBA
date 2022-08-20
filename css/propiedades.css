@@ -14,22 +14,21 @@ WARM YELLOW #EAC67A*/
     src: url(../css/Titulos.ttf);}
 
 /*HEADER*/
-
-.header__navegador{
-    height: 10vh;
-    background-color: #233237;
+.header {
     position: sticky;
     top: 0px;
     z-index: 999;
-
+}
+.header__navegador{
+    height: 10vh;
+    background-color: #233237;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 13%;
-    align-items: center;}
-
-.header__navegador {
-    height: 100%;}
+    align-items: center;
+    height: 100%;
+}
 
 .header__navegador ul {
     list-style: none;
@@ -58,43 +57,43 @@ WARM YELLOW #EAC67A*/
     color:#233237;}
 
 .header .logo {
-    width: 95px;
+    width: 100px;
     /*ancho*/
+    margin-top: 3px;
+    margin-right: 3px;
     height: auto;
     /*alto*/}
+    
 
  /*HEADER*/
 
  /*INDEX*/
 
 .mainindex__titulo h1 {
-    background-color: #EAC67A;
+    font-size: 80px;
     text-align: center;
     width: 370px;
     /*ancho*/
     height: auto;
     /*alto*/
     font-family: titulos;
-    border-color: #EAC67A;
-    border-style: solid;
-    border-radius: 2em/2em;
 
-    margin-top: 35px;
+    color: #643521;
+
     margin-bottom: 70px;
     padding: 5px;
     position: relative;
     top: 0px;
-    left: 33%;}
+    left: 33%;
+}
 
-.mainindex__titulo .portada {
-    position: relative;
-    left: 25%;
-    margin-top: -40px;
-    width: 50%;
-    /*ancho*/
-    height: auto;
-    /*alto*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
+.mainindex__titulo {
+    background-image: url(../assets/img/portada\ 3.jpg);
+    background-repeat: no-repeat;
+    height: 300vh;
+    width: 100%;
+
+}
 
 .mainindex__subtitulo h2 {
     display: block;
@@ -585,3 +584,47 @@ WARM YELLOW #EAC67A*/
     margin-bottom: 54px;
 }
 /*PIE DE PAGINA*/
+
+@media (max-width: 986px) {
+    .header {
+    background-color:#EAC67A;
+}
+    .footer__linkwasap .link2 {
+position: relative;
+top: -144px;
+z-index: 998;
+        
+}
+    .footer__section__info .direccion {
+    width: 150px;
+    /*ancho*/
+    height: 65px;
+    padding-bottom: 20px;
+
+}
+
+    .footer__section__info .imgdireccion{
+        border-radius: 50%;
+        position: relative;
+        top: 47px;
+        left: 8%;
+    }
+    .footer__section__info .imgtelefono {
+        left: 8%;
+    }
+    .footer__section__info .imgemail {
+        left: 8%;
+    }
+    .footer__section__info .imginsta {
+        left: 8%;
+    }
+    .footer__linkwasap {
+        height: 0px;
+    }
+    
+    .footer__section__sitios {
+
+        height: 331px;
+
+    }
+    }
