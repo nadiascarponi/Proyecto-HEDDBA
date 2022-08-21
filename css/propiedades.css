@@ -80,36 +80,6 @@ WARM YELLOW #EAC67A*/
 
 
 
-
-/*
-.header__navegador .menu {
-    height: 100%;
-    width: 100%;
-    font-size: 13px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    height: 100%;
-    text-decoration: none;
-    color: #EAC67A;
-   }
-
-.header__navegador .menu:hover {
-    background-color: #EAC67A;
-    color:#233237;
-    border-radius: 50%;}
-
- .header__navegador .logo {
-    width: 100px;
-    margin-top: 3px;
-    margin-right: 3px; 
-    height: auto;
-    } 
-/*
-
-
  /*HEADER*/
 
  /*INDEX*/
@@ -415,7 +385,7 @@ WARM YELLOW #EAC67A*/
     background-color: #233237;
     width: 100%;
     margin-top: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 1%;
 }
 
 .footer__linkwasap .link2 {
@@ -628,7 +598,7 @@ WARM YELLOW #EAC67A*/
     font-weight: lighter;
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 54px;
+    margin-bottom: 20px;
 }
 /*PIE DE PAGINA*/
 
@@ -682,7 +652,6 @@ WARM YELLOW #EAC67A*/
             display: flex;
             background-color: orange;
         }
-
          /*Nuevo navegador*/
          .header__navegador2{
             display: flex;
@@ -690,23 +659,20 @@ WARM YELLOW #EAC67A*/
             align-items: center;
             gap: 150px;
             justify-content: space-around;
-
             background-color:#233237;
-          }
+        }
         .header__navegador2 {
             height: 20vh;
         }
         .header__navegador2 .logo .img {
             margin-top: 4px;
             border-radius: 45%;
-            height: 53px;
+            height: 45px;
         }
-
         .header__menuchico ul {
             display: none;
             list-style: none;
         }
-          
         .header__menuchico input:checked  ~ ul{
             display:block;
             display: flex;
@@ -718,9 +684,10 @@ WARM YELLOW #EAC67A*/
         }
 
         .header__menuchico label img {
+            background-color: #EAC67A;
             box-sizing: border-box;
             display: inline-block;
-            border: 1px solid black;
+            border-style: none;
             border-radius: 5px;
             width: 40px;
             height: 40px;
@@ -729,7 +696,6 @@ WARM YELLOW #EAC67A*/
             text-align: center;
             user-select: none;
         }
-
         .header__menuchico .lista {
             background-color:#EAC67A;
             width: 250px;
@@ -737,14 +703,10 @@ WARM YELLOW #EAC67A*/
             margin-top: 117px;
             padding: 15px;
             border-radius: 10px;
-
-
         }
-
         .header__menuchico .lista a{
             text-decoration: none;
             color:#233237;
-
         }
         .header__menuchico .lista a:hover{
             text-decoration: none;
@@ -753,7 +715,31 @@ WARM YELLOW #EAC67A*/
             padding: 10px;
             border-radius: 1rem;
         }
+    }
 
+    @media (max-width: 550px){
+
+    .footer__section__sitios {
+        display: none;
+    }
+    .footer__section__productos {
+        display: none;
+    }
+    .footer__section__info {
+        margin-bottom: 0px;
+    }
+    .footer__section__info .imgdireccion {
+        left: -2%;
+    }
+    .footer__section__info .imgtelefono {
+        left: -2%;
+    }
+    .footer__section__info .imgemail {
+        left: -2%;
+    }
+    .footer__section__info .imginsta {
+        left: -2%;
+    }
     }
 
 
