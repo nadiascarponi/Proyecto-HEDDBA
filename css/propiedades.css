@@ -672,7 +672,6 @@ WARM YELLOW #EAC67A*/
             list-style: none;
         }
         .header__menuchico input:checked  ~ ul{
-            display:block;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -757,8 +756,28 @@ WARM YELLOW #EAC67A*/
         font-size: 50px;
         top: 97px;
     }
-
-
 }
 
+@media (max-width: 477px){
+
+    .header__menuchico .lista {
+        position: relative;
+        top: 19px;
+        left: 94px;
+    }
+    .mainindex__titulo {
+        background-size: contain;
+        background-repeat: repeat;
+        height: 45vh;    
+    }
+}
+
+@media (min-width: 1440px){
+    .header {
+        font-size: 22px;
+    }
+    .footer {
+        font-size: 22px;
+    }
+}
 
