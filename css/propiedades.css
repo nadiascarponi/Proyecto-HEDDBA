@@ -75,7 +75,7 @@ WARM YELLOW #EAC67A*/
  .mainindex__titulo {
     background-image: url(../assets/img/portada\ 3.jpg);
     background-position: center;
-    background-repeat: repeat;
+    background-size: cover;
     margin: 0 auto;
     height: 150vh;
     width: 100%;
@@ -636,6 +636,9 @@ WARM YELLOW #EAC67A*/
             }
         .header__navegador{
             margin-left: 4%;}
+        .header__navegador__logo {
+            margin-right: 15px;
+        }
         }
 
     @media (max-width: 425px){
@@ -649,17 +652,22 @@ WARM YELLOW #EAC67A*/
         .header__navegador{
             height: 20vh;
             background-color:#233237;
+            margin: 0%;
             display: flex;
             flex-direction: row;
+            gap: 140px;
         }
 
         .header__navegador ul .blogmenu{
-            display: flex;
+            display: block;
+            height: 50px;
+            border-radius: 20%;
+        }
+
+        .header__navegador ul li{
 
         }
-        .header__navegador ul li{
-            display: none;
-        }
+
         .header__navegador ul >li  {
             float: left;
             
@@ -670,25 +678,6 @@ WARM YELLOW #EAC67A*/
             flex-direction: column;
         }
 
-        .header__navegador ul:hover {
-
-        }
-
-        .header__navegador .menu {
-
-        }
-
-        .header__navegador .menu.contacto { 
-         
-}
-
-        .header__navegador .menu:hover {
-
-       }
-
-        .header .logo {
-     
-            }
 
 
     }
