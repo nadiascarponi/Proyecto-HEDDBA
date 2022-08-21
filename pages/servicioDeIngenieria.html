@@ -9,9 +9,9 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__navegador">
-            <div>
-                <ul>
+        <nav class="header__navegador1">
+            <div class="lista">
+                <ul >
                     <li><a href="../index.html" class="menu">Inicio</a></li>
     
                     <li><a href="./empresa.html" class="menu">Empresa</a></li>
@@ -20,15 +20,34 @@
     
                     <li><a href="./servicioDeIngenieria.html" class="menu">Servicio de Ingeniería</a></li>
     
-                    <li><a href="./contacto.html" class="menu contacto">Contacto</a></li>
+                    <li><a href="./contacto.html" class="menu">Contacto</a></li>
                 </ul>
             </div>
-            <div>
-                <img class="logo" src="../assets/img/logo.PNG" alt="Logo">
+            <div class="logo">
+                <img class="img" src="../assets/img/logo.PNG" alt="Logo">
             </div>
         </nav>
-         
-    </header> 
+        <div class="header__navegador2">
+            <div>
+                <nav class="header__menuchico">
+                    <input type="checkbox" id="menu">
+                    <label for="menu"> <img src="../assets/img/menu hamburguesa.png" alt="Menú"> </label>
+                    <ul class="lista">
+                          <li><a href="../index.html">Inicio</a></li>
+                          <li><a href="./empresa.html" class="header__menuchico__empresa">Empresa</a></li>
+                          <li><a href="./productos.html">Productos</a></li>
+                          <li><a href="./servicioDeIngenieria.html">Servicio de Ingeniería</a></li>
+                          <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+            </nav>
+            </div>
+            <div class="logo">
+                <img class="img" src="../assets/img/logo.PNG" alt="Logo">
+            </div>
+        </div>
+
+    </header>
+
     
     <main class="mainservicio">
         <section>

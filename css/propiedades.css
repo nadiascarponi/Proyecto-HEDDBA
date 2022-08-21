@@ -99,7 +99,6 @@ WARM YELLOW #EAC67A*/
 .mainindex__titulo h1 {
     font-size: 80px;
     text-align: center;
-    width: 370px;
     /*ancho*/
     height: auto;
     /*alto*/
@@ -109,7 +108,6 @@ WARM YELLOW #EAC67A*/
     padding: 5px;
     position: sticky;
     top: 180px;
-    left: 33%;
 }
 
 .mainindex__subtitulo h2 {
@@ -715,6 +713,9 @@ WARM YELLOW #EAC67A*/
             padding: 10px;
             border-radius: 1rem;
         }
+        .mainindex__subtitulo .llave {
+            display: none;
+        }
     }
 
     @media (max-width: 550px){
@@ -742,5 +743,22 @@ WARM YELLOW #EAC67A*/
     }
     }
 
+@media (max-width: 425px){
+    .header {
+        width:100%;
+    }
+    .mainindex__subtitulo .link1 {
+        left: 10%;}
+    
+    .mainindex__subtitulo .nosotros {
+        left: -0%;
+}
+    .mainindex__titulo h1 {
+        font-size: 50px;
+        top: 97px;
+    }
+
+
+}
 
 
