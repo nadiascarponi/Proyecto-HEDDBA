@@ -107,6 +107,11 @@ WARM YELLOW #EAC67A*/
     position: sticky;
     top: 180px;
 }
+/*ANIMACIONES*/
+.mainindex__titulo h1 {
+    background: linear-gradient(to right, blue, pink)
+}
+/*ANIMACIONES*/
 .mainindex__subtitulo h2 {
     /*    border-color: black;
     border-style: solid; */
@@ -858,4 +863,14 @@ WARM YELLOW #EAC67A*/
         }
 
 }
+
+/*ANIMACIONES*/
+@media (max-width: 570px) {
+    
+.mainindex__titulo h1 {
+    background: linear-gradient(to right, pink, blue);
+    transition: 5s;
+}
+}
+/*ANIMACIONES*/
 
