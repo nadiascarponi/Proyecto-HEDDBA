@@ -3,6 +3,9 @@
     box-sizing: border-box;
     font-family: titulos;}
 
+    nav {
+        background-color: #233237;
+    }
 /*colores
 NAVY BLUE #18121E
 GUNMETAL #233237
@@ -531,7 +534,7 @@ WARM YELLOW #EAC67A*/
 }
 
 .footer__section__sitios {
-    background-color: #233237;
+    background-color: #f8f9fa;
     padding: 25px;
     z-index: 998;
     font-weight: lighter;
@@ -563,6 +566,7 @@ WARM YELLOW #EAC67A*/
     font-weight: lighter;
     text-align: left;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .footer__section__sitios ul li a:hover {
@@ -570,26 +574,6 @@ WARM YELLOW #EAC67A*/
     background-color: #EAC67A;
     border-radius: 1em;
     padding: 6px;
-}
-
-.footer__section__productos {
-    background-color: #18121E;
-    padding: 25px;
-}
-
-.footer__section .productos {
-    font-weight: lighter;
-    text-align: left;
-    color: #233237;
-    font-family: titulos;
-    font-size: 12px;
-    background-color: #EAC67A;
-    border-radius: 1em;
-    padding: 6px;
-    padding-bottom: 20px;
-    height: 18px;
-    /*alto*/
-    text-align: center;
 }
 
 .footer__derechos {
