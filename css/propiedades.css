@@ -7,6 +7,10 @@
         background-color: #233237;
     }
 /*colores
+    GRIS CLARO #6c757d
+    GRIS OBSCURO #212529
+    #f8f9fa
+
 NAVY BLUE #18121E
 GUNMETAL #233237
 RUSTY RED #984B43
@@ -16,154 +20,8 @@ WARM YELLOW #EAC67A*/
     font-family: titulos;
     src: url(../css/Titulos.ttf);}
 
-/*HEADER*/
-
-.header {
-    position: sticky;
-    top: 0px;
-    z-index: 999;
-    height: 20vh;
-
-}
-
-.header__navegador2 {
-    display: none;
-}
-.header__navegador1{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
-    background-color: #233237;
-
-}
-
-.header__navegador1 .logo {
-    height: 100%;
-}
-.header__navegador1 .img {
-    height: 100%;
-    padding: 2px;
-    border-radius: 50%;
-}
-
-.header__navegador1 .lista {
-    margin-left: 100px;
-
-}
-.header__navegador1 .lista ul {
-    width: 600px;
-    height: 100%;
-    list-style: none;  
-    display: flex;
-    flex-direction: row;
-    justify-content: end; 
-    gap: 40px;
-
-}
-
-.header__navegador1 .lista .menu {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 100px;
-    padding: 5px;
-    text-align: center;
-    color: #EAC67A;
-    text-decoration: none;
-}
-
-.header__navegador1 .lista .menu:hover{
-    border-radius: 75%;
-    background-color:#EAC67A;
-    color: #233237;
-}
 
 
-
- /*HEADER*/
-
- /*INDEX*/
- .mainindex {
-    width: 100%;
- }
- .mainindex__titulo {
-    background-image: url(../assets/img/portada\ 3.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-    height: 150vh;
-    width: 100%;
-}
-.mainindex__titulo h1 {
-    font-size: 80px;
-    text-align: center;
-    /*ancho*/
-    height: auto;
-    /*alto*/
-    font-family: titulos;
-
-    color: #643521;
-    padding: 5px;
-    position: sticky;
-    top: 180px;
-}
-/*ANIMACIONES*/
-.mainindex__titulo h1 {
-    background: linear-gradient(to right, blue, pink)
-}
-/*ANIMACIONES*/
-.mainindex__subtitulo h2 {
-    /*    border-color: black;
-    border-style: solid; */
-    margin-top: 25px;
-    text-align: center;
-    font-family: titulos;
-    letter-spacing: normal;
-    font-weight: normal;}
-
-.mainindex__subtitulo .llave {
-    width: 40px;
-    /*ancho*/
-    height: auto;
-    /*alto*/
-    position: relative;
-    top: 12px;
-    margin-left: 20px;
-    margin-right: 20px;}
-
-.mainindex__subtitulo .link1 {
-    display: block;
-    width: 260px;
-    /*ancho*/
-    height: 25px;
-    /*alto*/
-    margin-top: 35px;
-    position: relative;
-    left: 37%;
-    text-align: center;
-    padding-top: 175px;
-    margin-bottom: 50px;
-
-    font-family: titulos;
-    color: black;
-    text-decoration: none;
-    /*    border-color: black;
-    border-style: solid; */}
-
-.mainindex__subtitulo .nosotros {
-    position: relative;
-    top: -189px;
-    left: 0%;
-    width: 250px;
-    /*ancho*/
-    height: auto;
-    /*alto*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
- 
-/*INDEX*/
 
 /*PAGINA EMPRESA*/
 .mainempresa {
@@ -279,7 +137,7 @@ WARM YELLOW #EAC67A*/
 }
 /*PAGINA PRODUCTOS*/
 
-/*PAGINA DE SERVICIO DE INGENIERÍA*/
+/*PAGINA DE SERVICIO DE INGENIERÍA*/ /*ESTO QUEDA*/
 .mainservicio__titulo{
     text-align: center;
     width: 300px;
@@ -296,6 +154,7 @@ WARM YELLOW #EAC67A*/
     left: 34%;
     margin: 20px;
     text-decoration: underline;
+    
 }
 .mainservicio__imgcasa {
     position: relative;
@@ -338,37 +197,13 @@ WARM YELLOW #EAC67A*/
     margin-bottom: 50px;
     border-radius: 5%;
 }
+/*PAGINA DE SERVICIO DE INGENIERÍA*/ /*ESTO QUEDA*/
 
-
-/*PAGINA DE SERVICIO DE INGENIERÍA*/
-
-/*PAGINA DE CONTACTO*/
-.main__titulocontacto {
-    background-color: #18121E;
-    text-align: center;
-    margin: 10px;
-    display: block;
-    background-color: #EAC67A;
-    color: #18121E;
-    border-radius: 1rem 1rem;
-    width: 30%;
-    position: relative;
-    left:25%;
-    top: 2px;
-}
-
-.main__subtitulocontacto {
-    background-color:#233237;
-    color: #EAC67A;
-    font-weight: lighter;
-    text-align: center;
-    margin-top: 10px;
-    padding: 10px;
-}
+/*PAGINA DE CONTACTO*//*ESTO QUEDA*/
 
 .main__contacto {
-    background-color: #18121E;
-    color: #EAC67A;
+    background-color: #6c757d;
+    color: #212529;
     font-weight: lighter;
     text-align: center;
     margin-top: 10px;
@@ -376,7 +211,7 @@ WARM YELLOW #EAC67A*/
 }
 
 .main__formulario {
-    background-color:#EAC67A;
+    background-color:#f8f9fa;
     text-align: center;
 }
 .main__formulario div{
@@ -385,17 +220,10 @@ WARM YELLOW #EAC67A*/
 .main__formulario .label {
     padding: 10px;
 }
-/*PAGINA DE CONTACTO*/
+/*PAGINA DE CONTACTO*//*ESTO QUEDA*/
 
 
 /*PIE DE PAGINA*/
-.footer {
-    background-color: #233237;
-    width: 100%;
-    margin-top: 0px;
-    padding-bottom: 1%;
-}
-
 .footer__linkwasap .link2 {
     display: block;
     width: 70px;
@@ -425,212 +253,18 @@ WARM YELLOW #EAC67A*/
     margin: 1px;
 }
 
-.footer__section {
-    background-color: #18121E;
-    display: flex;
-    flex-direction: row;
-    /*como fila*/
-    flex-wrap: nowrap;
-    /*se ajustan a la hoja, no hace fila 2*/
-    justify-content: space-around;
-    /* separados*/
-    align-items: center;
-}
-
-.footer__section__info {
-    background-color: #18121E;
-}
-
-.footer__section__info p {
-    color: #233237;
-    text-decoration: none;
-    font-family: titulos;
-    font-weight: lighter;
-    font-size: 12px;
-    background-color: #EAC67A;
-    position: relative;
-    left: 25%;
-    margin: 7px;
-    border-radius: 1em;
-    padding: 7px;
-    height: 18px;
-    /*alto*/
-    text-align: center;
-
-}
-
-.footer__section__info .direccion {
-    width: 370px;
-    /*ancho*/
-    top: -10px;
-    padding-bottom: 20px;
-}
-
-.footer__section__info .imgdireccion {
-    width: 29px;
-    padding: 1px;
-    height: auto;
-    /*alto*/
-    background-color: #EAC67A;
-    border-radius: 50%;
-    position: relative;
-    top: 28px;
-    left: 17%;
-}
-
-
-.footer__section__info .telefono {
-    width: 115px;
-    /*ancho*/
-    top: -25px;
-    padding-bottom: 20px;
-}
-
-.footer__section__info .imgtelefono {
-    width: 28px;
-    padding: 2px;
-    height: auto;
-    background-color: #EAC67A;
-    border-radius: 50%;
-    position: relative;
-    top: 14px;
-    left: 17%;
-}
-
-.footer__section__info .email {
-    width: 145px;
-    /*ancho*/
-    top: -50px;
-    padding-bottom: 20px;
-}
-
-.footer__section__info .imgemail {
-    width: 28px;
-    padding: 2px;
-    height: auto;
-    background-color: #EAC67A;
-    border-radius: 50%;
-    position: relative;
-    top: -10px;
-    left: 17%;
-}
-
-.footer__section__info .insta {
-    width: 70px;
-    /*ancho*/
-    top: -75px;
-    padding-bottom: 20px;
-}
-
-.footer__section__info .imginsta {
-    width: 28px;
-    padding: 2px;
-    height: auto;
-    background-color: #EAC67A;
-    border-radius: 35%;
-    position: relative;
-    top: -36px;
-    left: 17%;
-}
-
-.footer__section__sitios {
-    background-color: #f8f9fa;
-    padding: 25px;
-    z-index: 998;
-    font-weight: lighter;
-    width: 25%;
-    max-width: 25%;
-}
-
-.footer__section__sitios .mapa {
-    padding-top: 15px;
-    font-size: 13px;
-    text-align: center;
-    color: #EAC67A;
-    font-weight: lighter;
-}
-
-.footer__section__sitios ul {
-    list-style: none;
-    text-align: left;
-
-}
-
-.footer__section__sitios ul li {
-    margin: 15px;
-    padding: 5px;
-}
-
-.footer__section__sitios ul li a {
-    color: #EAC67A;
-    font-weight: lighter;
-    text-align: left;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.footer__section__sitios ul li a:hover {
-    color: #18121E;
-    background-color: #EAC67A;
-    border-radius: 1em;
-    padding: 6px;
-}
-
-.footer__derechos {
-    background-color: #233237;
-    text-align: center;
-    font-size: 18px;
-    color: #EAC67A;
-}
-
-.footer__derechos h6 p {
-    font-weight: lighter;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-/*PIE DE PAGINA*/
-
-
 
 /*MEDIA QUERIN*/
 
 /*MEDIA PARA INDEX*/
 @media (max-width: 1254px) {
-    .header {
-         background-color:#EAC67A;
-}
     .footer__linkwasap .link2 {
         position: relative;
         top: -144px;
         z-index: 998;     
 }
-    .footer__section__info .direccion {
-        width: 150px;
-        /*ancho*/
-        height: 65px;
-        padding-bottom: 20px;
-}
-    .footer__section__info .imgdireccion{
-        border-radius: 50%;
-        position: relative;
-        top: 47px;
-        left: 8%;
-    }
-    .footer__section__info .imgtelefono {
-        left: 8%;
-    }
-    .footer__section__info .imgemail {
-        left: 8%;
-    }
-    .footer__section__info .imginsta {
-        left: 8%;
-    }
     .footer__linkwasap {
         height: 0px;
-    }
-    .footer__section__sitios {
-        height: 331px;
     }
     }
 
@@ -642,149 +276,7 @@ WARM YELLOW #EAC67A*/
             display: flex;
             background-color: orange;
         }
-         /*Nuevo navegador*/
-         .header__navegador2{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 150px;
-            justify-content: space-around;
-            background-color:#233237;
-        }
-        .header__navegador2 {
-            height: 20vh;
-        }
-        .header__navegador2 .logo .img {
-            margin-top: 4px;
-            border-radius: 45%;
-            height: 45px;
-        }
-        .header__menuchico ul {
-            display: none;
-            list-style: none;
-        }
-        .header__menuchico input:checked  ~ ul{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-          }
-        .header__menuchico input {
-            display: none;
-        }
 
-        .header__menuchico label img {
-            background-color: #EAC67A;
-            box-sizing: border-box;
-            display: inline-block;
-            border-style: none;
-            border-radius: 5px;
-            width: 40px;
-            height: 40px;
-            line-height: 30px;
-            font-weight: bold;
-            text-align: center;
-            user-select: none;
-        }
-        .header__menuchico .lista {
-            background-color:#EAC67A;
-            width: 250px;
-            height: 250px;
-            margin-top: 117px;
-            padding: 15px;
-            border-radius: 10px;
-        }
-        .header__menuchico .lista a{
-            text-decoration: none;
-            color:#233237;
-        }
-        .header__menuchico .lista a:hover{
-            text-decoration: none;
-            color:#EAC67A;
-            background-color: #233237;
-            padding: 10px;
-            border-radius: 1rem;
-        }
-        .mainindex__subtitulo .llave {
-            display: none;
-        }
-    }
-
-    @media (max-width: 550px){
-
-    .footer__section__sitios {
-        display: none;
-    }
-    .footer__section__productos {
-        display: none;
-    }
-    .footer__section__info {
-        margin-bottom: 0px;
-    }
-    .footer__section__info .imgdireccion {
-        left: -2%;
-    }
-    .footer__section__info .imgtelefono {
-        left: -2%;
-    }
-    .footer__section__info .imgemail {
-        left: -2%;
-    }
-    .footer__section__info .imginsta {
-        left: -2%;
-    }
-    }
-
-@media (max-width: 425px){
-    .header {
-        width:100%;
-    }
-    .mainindex__subtitulo .link1 {
-        left: 10%;}
-    
-    .mainindex__subtitulo .nosotros {
-        left: -0%;
-}
-    .mainindex__titulo h1 {
-        font-size: 50px;
-        top: 97px;
-    }
-}
-
-@media (max-width: 477px){
-
-    .header__menuchico .lista {
-        position: relative;
-        top: 19px;
-        left: 94px;
-    }
-    .mainindex__titulo {
-        background-size: contain;
-        background-repeat: repeat;
-        height: 45vh;    
-    }
-}
-
-@media (min-width: 1440px){
-    .header {
-        font-size: 22px;
-    }
-    .footer {
-        font-size: 22px;
-    }
-}
-@media (max-width: 1026px){
-    .header__navegador1 .lista ul{
-        gap: 20px;
-    }
-    .header__navegador1 .img {
-        height:20vh;
-        width: auto;
-    }
-    .header__navegador1 .lista {
-        margin-left: 20px;
-    
-    }
-}
 
 /*MEDIA PARA TITULO DE PAGINAS VARIAS*/
 @media (max-width: 1024px){
@@ -847,14 +339,3 @@ WARM YELLOW #EAC67A*/
         }
 
 }
-
-/*ANIMACIONES*/
-@media (max-width: 570px) {
-    
-.mainindex__titulo h1 {
-    background: linear-gradient(to right, pink, blue);
-    transition: 5s;
-}
-}
-/*ANIMACIONES*/
-
