@@ -3,9 +3,6 @@
     box-sizing: border-box;
     font-family: titulos;}
 
-    nav {
-        background-color: #233237;
-    }
 /*colores
     GRIS CLARO #6c757d
     GRIS OBSCURO #212529
@@ -23,100 +20,25 @@ WARM YELLOW #EAC67A*/
 
 
 
-/*PAGINA EMPRESA*/
+/*PAGINA EMPRESA*/ /*ESTO QUEDA*/
 .mainempresa {
     display: grid;
-    grid-template-areas: 
-    "encabezado encabezado"
-    "historia ."
-    ". mision"
-    "vision ."
-    ". politica";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
-    gap: 15px;
-    font-size: 12px;}
-
-.mainempresa__encabezado {
-    grid-area: encabezado;
-    text-align: center;}
-
-.mainempresa__encabezado__titulo {
-    background-color: #18121E;
-    text-align: center;
-    margin: 10px;
-    display: block;
-    background-color: #EAC67A;
-    color: #18121E;
-    border-radius: 1rem 1rem;
-    width: 13%;
-    position: relative;
-    left:43% ;
-    top: 5px;}
-
-
-.mainempresa__encabezado h2 {
-    font-weight: lighter;
-    margin: 5px;
-    padding: 5px;
-    font-size: 18px;
-}
-
-.mainempresa__imgsobrenosotros {
-    height: 100px;}
-    
-.mainempresa__encabezado__subtitulo {
-    background-color:#233237;
-    color: #EAC67A;
-    font-weight: lighter;
-    text-align: center;
-    margin-top: 10px;
-    padding: 10px;
-}
-.mainempresa__encabezado h3 {
-    margin: 10px;
-    padding: 5px;
-    text-align: start;
-    font-size: 20px;
-    font-weight: lighter;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 5%;
 }
 .mainempresa__historia {
-    background-color:#233237;
-    color: #EAC67A;
-    font-weight:lighter;
-    grid-area: historia;}
+    grid-column: 1/3;
+}
 
-.mainempresa__mision {
-    background-color:#EAC67A;
-    color: #18121E;
-    grid-area: mision;
-}
-.mainempresa__vision {
-    background-color:#233237;
-    color: #EAC67A;
-    grid-area: vision;
-}
 .mainempresa__politica {
-    background-color:#EAC67A;
-    color: #18121E;
-    grid-area: politica;
+    grid-column: 1/3;
 }
-/*PAGINA EMPRESA*/
+/*PAGINA EMPRESA*//*ESTO QUEDA*/
 
 
 /*PAGINA PRODUCTOS*/
-.mainproductos {
-    background-color:white;
-}
-.mainproductos .texto {
-    color: #18121E;
-    background-color: #EAC67A;
-    margin: 0px;
-    text-align: center;
-    position:sticky;
-    top: 20vh;
-    margin-bottom: 15px;
-}
+
 .main__section {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -127,8 +49,8 @@ WARM YELLOW #EAC67A*/
     margin-bottom: 15px;
 }
 .main__section div {
-    background-color:#EAC67A;
-    color: #233237;
+    background-color:#f8f9fa;
+    color:#233237;
     text-align:center;
 }
 .main__section img {
