@@ -146,19 +146,13 @@ WARM YELLOW #EAC67A*/
 
 
 /*PIE DE PAGINA*/
-.footer__linkwasap .link2 {
-    display: block;
-    width: 70px;
-    /*ancho*/
-    height: auto;
-    /*alto*/
-
-    padding: 5px;
+.linkwhatsapp {
+    padding: 2px;
     margin: 5px;
 
     position: fixed;
     bottom: 0;
-    left: 1, 5%;
+    left: 2%;
     z-index: 998;
 
     /*    border-color: black;
@@ -166,7 +160,7 @@ WARM YELLOW #EAC67A*/
 
 }
 
-.footer__linkwasap .wasap {
+.imgwh {
     border-radius: 100%;
     width: 80px;
     /*ancho*/
@@ -177,11 +171,11 @@ WARM YELLOW #EAC67A*/
 
 
 /*MEDIA QUERIN*/
-@media (max-width: 576px) { 
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+@media (max-width: 815px) {
+    .linkwhatsapp {
+        position: sticky;
+    }   
+    .imgwh {
+        margin: 10px;
+    }
 }
-
- }
