@@ -1,0 +1,80 @@
+/*MEDIA QUERIN para WHATSAPP*/
+@media (max-width: 815px) {
+  footer .linkwhatsapp {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  footer .imgwh {
+    margin: 10px;
+  }
+}
+/*MEDIA QUERIN para XS*/
+@media (max-width: 768px) {
+  .mainempresa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5%;
+    margin: 25px;
+  }
+  .mainservicio .imgcasa {
+    left: 10%;
+  }
+  .mainservicio .imgtrailer {
+    left: 20%;
+  }
+  .mainproductos .main__section {
+    grid-template-columns: 100%;
+  }
+}
+/*MEDIA QUERIN para MD*/
+@media (min-width: 768px) {
+  .mainempresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .mainempresa .historia {
+    grid-column: 1/3;
+  }
+  .mainempresa .politica {
+    grid-column: 1/3;
+  }
+  .mainproductos .main__section {
+    grid-template-columns: 50% 50%;
+  }
+  .mainservicio .imgcasa {
+    left: 15%;
+  }
+  .mainservicio .imgtrailer {
+    left: 25%;
+  }
+}
+/*MEDIA QUERIN para LG*/
+@media (min-width: 992px) {
+  .mainempresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  .mainproductos .main__section {
+    grid-template-columns: 33% 33% 33%;
+  }
+  .mainservicio .imgcasa {
+    left: 20%;
+  }
+  .mainservicio .imgtrailer {
+    left: 40%;
+  }
+}
+/*MEDIA QUERIN para XL*/
+@media (min-width: 1200px) {
+  .mainempresa {
+    gap: 10px;
+  }
+  .mainservicio .imgcasa {
+    left: 25%;
+  }
+  .mainservicio .imgtrailer {
+    left: 45%;
+  }
+}/*# sourceMappingURL=main.css.map */
