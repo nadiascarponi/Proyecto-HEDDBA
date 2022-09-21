@@ -66,6 +66,7 @@
             padding: 10px;
         }
 }
+
 /*PAGINA DE CONTACTO*/
 
 /*PAGINA DE SERVICIO DE INGENIERÍA*/ 
@@ -76,41 +77,38 @@
         left: 34%;
         margin: 20px;
         text-decoration: underline;
-        }
-        .imgcasa {
-            position: relative;
-            left: 20%;
-            width: 215px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            margin: 5px;
-            border-radius: 5%;
-        }
-        .imgtrailer {
-            @extend .mainservicio__imgcasa;
-            left: 40%;
-            width: 172px;
-        }
-        .texto {
-            text-align: start;
-            margin: 25px;
-        }
+    }
+    .imgcasa{
+        position: relative;
+        left: 20%;
+        width: 215px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 5px;
+        border-radius: 5%;
+    }
+    .imgtrailer {
+        @extend .imgcasa;
+        left: 40%;
+        width: 172px;
+    }
+    .texto {
+        text-align: start;
+        margin: 25px;
+    }
+    .texto2 {
+        @extend .texto;
+    }
+    .imgpatente {
+        @extend .imgtrailer;
+        margin: auto;
+    }
+    .imglogo {
+        @extend .imgpatente;
+        margin-bottom: 25px;
+    }
 }
 
-
-
-.mainservicio__texto2 {
-    text-align: start;
-    margin: 25px;
-}
-.mainservicio__imgpatente {
-    @extend .mainservicio__imgtrailer;
-    margin: auto;
-}
-.mainservicio__imglogo {
-    @extend .mainservicio__imgpatente;
-    margin-bottom: 25px;
-}
-/*PAGINA DE SERVICIO DE INGENIERÍA*/ /*ESTO QUEDA*/
+/*PAGINA DE SERVICIO DE INGENIERÍA*/ 
 
 /*LINK DE WHATSAPP*/
 @mixin linkwhatsapp {

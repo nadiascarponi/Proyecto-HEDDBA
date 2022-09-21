@@ -65,14 +65,13 @@
 
 /*PAGINA DE CONTACTO*/
 /*PAGINA DE SERVICIO DE INGENIERÍA*/
-.mainservicio__subtitulo {
+.mainservicio .subtitulo {
   font-weight: lighter;
   left: 34%;
   margin: 20px;
   text-decoration: underline;
 }
-
-.mainservicio__imgcasa, .mainservicio__imgtrailer, .mainservicio__imgpatente, .mainservicio__imglogo {
+.mainservicio .imgcasa, .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
   position: relative;
   left: 20%;
   width: 215px;
@@ -80,31 +79,22 @@
   margin: 5px;
   border-radius: 5%;
 }
-
-.mainservicio__imgtrailer, .mainservicio__imgpatente, .mainservicio__imglogo {
+.mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
   left: 40%;
   width: 172px;
 }
-
-.mainservicio__texto {
+.mainservicio .texto, .mainservicio .texto2 {
   text-align: start;
   margin: 25px;
 }
-
-.mainservicio__texto2 {
-  text-align: start;
-  margin: 25px;
-}
-
-.mainservicio__imgpatente, .mainservicio__imglogo {
+.mainservicio .imgpatente, .mainservicio .imglogo {
   margin: auto;
 }
-
-.mainservicio__imglogo {
+.mainservicio .imglogo {
   margin-bottom: 25px;
 }
 
-/*PAGINA DE SERVICIO DE INGENIERÍA*/ /*ESTO QUEDA*/
+/*PAGINA DE SERVICIO DE INGENIERÍA*/
 /*LINK DE WHATSAPP*/
 .linkwhatsapp {
   padding: 2px;
@@ -144,10 +134,10 @@
     padding: 5%;
     margin: 25px;
   }
-  .mainservicio .imgcasa {
+  .mainservicio .imgcasa, .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
     left: 10%;
   }
-  .mainservicio .imgtrailer {
+  .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
     left: 20%;
   }
   .mainproductos .main__section {
@@ -169,10 +159,10 @@
   .mainproductos .main__section {
     grid-template-columns: 50% 50%;
   }
-  .mainservicio .imgcasa {
+  .mainservicio .imgcasa, .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
     left: 15%;
   }
-  .mainservicio .imgtrailer {
+  .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
     left: 25%;
   }
 }
@@ -186,10 +176,10 @@
   .mainproductos .main__section {
     grid-template-columns: 33% 33% 33%;
   }
-  .mainservicio .imgcasa {
+  .mainservicio .imgcasa, .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
     left: 20%;
   }
-  .mainservicio .imgtrailer {
+  .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
     left: 40%;
   }
 }
@@ -198,10 +188,10 @@
   .mainempresa {
     gap: 10px;
   }
-  .mainservicio .imgcasa {
+  .mainservicio .imgcasa, .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
     left: 25%;
   }
-  .mainservicio .imgtrailer {
+  .mainservicio .imgtrailer, .mainservicio .imgpatente, .mainservicio .imglogo {
     left: 45%;
   }
 }/*# sourceMappingURL=main.css.map */
